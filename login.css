@@ -1,0 +1,64 @@
+/* 
+font-family: "Montserrat", sans-serif; = FONT FOR HEADER
+font-family: "Open Sans", sans-serif;  = FONT FOR PARAGRAPH
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1115px;
+    margin: 0 auto;
+}
+
+.login-container{
+    width: 90%;
+    max-width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title h2{
+    font-family: "Montserrat", sans-serif;
+    color: #2d333a;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+form input{
+    padding: 0.8rem;
+    width: 75%;
+    margin: 0.5rem;
+    outline: none;
+    border: none;
+    border: 1px solid #6f47c046;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+form input:focus{
+    border: 1px solid #7047c0;
+}
+
+form button{
+    padding: 1rem;
+    width: 75%;
+    margin: 1rem 0;
+    border: none;
+    background-color: #8C52FF;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+form button:hover{
+    background-color: #7047c0;
+}
+
